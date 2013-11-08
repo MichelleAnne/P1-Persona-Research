@@ -1,0 +1,172 @@
+body {
+  background-image: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  width: 500px;
+  margin-top: 90px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  padding-left: 80px;
+  font-family: Exo, sans-serif;
+  font-size: 33px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  padding-right: 90px;
+  float: right;
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+}
+.button {
+  display: inline-block;
+  width: 75px;
+  margin: 0px 19px 40px 0px;
+  padding: 4px 15px;
+  float: right;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.big-img {
+  height: 855px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('http://2.bp.blogspot.com/-QvxLgNLZoKk/T_v1qrtgH9I/AAAAAAABZq4/LE3iuIi-tDc/s1600/Lawrence+Lions+High+School+Football+(4).jpg');
+  background-position: 0px 25%;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  background-attachment: scroll;
+}
+.about {
+  margin-top: 15px;
+  padding-top: 90px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+  float: right;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: Exo, sans-serif;
+  color: #0d0a0a;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+.about.browse {
+  float: left;
+}
+.icon {
+  padding-top: 30px;
+  float: right;
+}
+.logo {
+  width: 250px;
+  padding-bottom: 20px;
+}
+@media (max-width: 991px) {
+  h2 {
+    width: 400px;
+    margin-top: 40px;
+    padding-left: 0px;
+    font-size: 31px;
+  }
+  p {
+    margin-right: 20px;
+    padding-right: 30px;
+    padding-left: 0px;
+  }
+  .about {
+    padding-top: 70px;
+  }
+  .logo {
+    width: 200px;
+  }
+}
+@media (max-width: 767px) {
+  h2 {
+    width: 450px;
+    margin-left: 55px;
+    font-size: 23px;
+    line-height: 34px;
+  }
+  p {
+    margin-right: 30px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  .big-img {
+    background-image: url('http://2.bp.blogspot.com/-QvxLgNLZoKk/T_v1qrtgH9I/AAAAAAABZq4/LE3iuIi-tDc/s1600/Lawrence+Lions+High+School+Football+(4).jpg');
+    background-position: -9px 25%;
+  }
+  .about {
+    margin-top: 70px;
+    padding-top: 0px;
+  }
+  .logo {
+    width: 200px;
+  }
+}
+@media (max-width: 479px) {
+  h2 {
+    width: 250px;
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  p {
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  .button {
+    width: 74px;
+    margin-right: 10px;
+  }
+  .big-img {
+    background-image: url('http://2.bp.blogspot.com/-QvxLgNLZoKk/T_v1qrtgH9I/AAAAAAABZq4/LE3iuIi-tDc/s1600/Lawrence+Lions+High+School+Football+(4).jpg');
+    background-position: -73px 100%;
+  }
+  .about {
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: 14px;
+  }
+}
